@@ -1,0 +1,103 @@
+{
+  "PM": "Hello, everyone. Today's topic is \"Death penalty should be abolished\". We define that the death penalty should be abolished and instead of the death penalty, we propose that the suspected are sentence to life in. We have two points. The first point is \"Executioner's suffering\". The second point is \"Cruelty of death penalty\". I will explain the first point. In present situations, a person who executes the death penalty for a criminal whose death penalty has been confirmed by a trial suffers a lot. Some methods of the death penalty include hanging and using gas chambers. Let me illustrate the case of hanging in Japan. A prisoner does not know when they will be executed until the day of execution. At the day of execution, they first enter the teacher's room and write a farewell letter. Then, they go to the antechamber for execution and are separated from the execution room by a curtain. The convict on death row is blindfolded and handcuffed, and a curtain is closed to the execution room. Finally, they go to the execution room. A rope is hung around their neck and they stand on a tread plate marked in the center of the room. Then, multiple prison officers push the button to open and close the tread, and the convict on death row falls. Those executioners feel strong stress. They don't know which button is actually connected to the input of the tread. They feel that they are responsible themselves for killing the suspect on death row by their own hands. Executers' stress is extremely overwhelming. That's why the death penalty should be abolished. Thank you.",
+  "LO": "They said that the death penalty should be abolished due to the needless suffering it inflicts on prisoners and executioners. However, there is more to the death penalty than just cruelty. In many cases, the death penalty can actually help in the rehabilitation of the offender who is to be put to death. Although the executed criminal will never return to society, research has shown that the knowledge of death can sometimes have a humbling affect on the prisoner, allowing them to more easily repent and ask for forgiveness for their crimes than criminals who are given lengthy prison sentences. For religious communities, this serves the purpose of preparing the offender for a better afterlife after they have forfeited their current life due to the heinous nature of the crime they committed.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "acknowledges",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ],
+      "but nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "Cruelty",
+      "A": "humbling affect on the prisoner, allowing them to more easily repent and ask for forgiveness for their crimes than criminals who are given lengthy prison sentences"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      35,
+      48
+    ],
+    "Y": [
+      300,
+      307
+    ],
+    "A": [
+      434,
+      597
+    ]
+  }
+}

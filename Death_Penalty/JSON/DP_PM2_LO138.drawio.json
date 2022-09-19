@@ -1,0 +1,104 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Death penalty should be abolished\". I am going to make two arguments. First, misjudgment in the death penalty is very dangerous. Second, the death penalty is a cruel penalty. Let me start with the first argument. Humans make mistakes. This is the nature of a human and we cannot deny it completely. Of course, technology has been developed such as DNA testing, surveillance camera, and so on. However, still there is still a possibility of misjudgment. If misjudgment happens when the court sentences the suspected criminal the death penalty, it will be irreparable. When we deprive the life of a suspected criminal, they will never be able to live again. It's very terrible. Imagine the case where your family member is mistakenly arrested by the police and unfortunately suspected to be sentenced to the death penalty. Would you be able to endure this situation? The answer is definitely \"No\". Therefore, at least, by abolishing death penalty, we can prevent the situation of ending the life of innocent people. At least, we will have more time to investigate the truth when the innocent in jail are suspected of a serious crime. Then, there will be a greater chance that the innocent, suspected person can be saved in the future from losing their life. It's much safer society. Remember, even if we carefully investigate the incident, there is always a risk of mistakes. For these reasons, death penalty should be abolished. Thank you.",
+  "LO": "They said that the death penalty should be abolished because mistakes made in these cases can't be reversed. However, this argument assumes that the death sentence is carried out before a mistake can be found. In fact, inmates typically spend years and often decades on death row. This allows time to catch mistakes made in the original trial and rectify them. A great many death row sentences are reduced to life sentences on appeal, which demonstrates that a death sentence isn't absolute. Moreover, death penalty cases represent a much larger percentage of total exonerations, where the original charges are dismissed altogether. This further suggests that death sentences can be changed and that death row inmates actually have a greater chance of obtaining justice, due to the extraordinary amount of focus on their cases.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "the situation of ending the life of innocent people",
+      "A": "A great many death row sentences are reduced to life sentences on appeal, which demonstrates that a death sentence isn't absolute"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      47
+    ],
+    "Y": [
+      995,
+      1046
+    ],
+    "A": [
+      361,
+      490
+    ]
+  }
+}

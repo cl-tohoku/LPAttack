@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Death penalty should be abolished\". I am going to make two arguments. First, misjudgment in the death penalty is very dangerous. Second, the death penalty is a cruel penalty. Let me start with the first argument. Humans make mistakes. This is the nature of a human and we cannot deny it completely. Of course, technology has been developed such as DNA testing, surveillance camera, and so on. However, still there is still a possibility of misjudgment. If misjudgment happens when the court sentences the suspected criminal the death penalty, it will be irreparable. When we deprive the life of a suspected criminal, they will never be able to live again. It's very terrible. Imagine the case where your family member is mistakenly arrested by the police and unfortunately suspected to be sentenced to the death penalty. Would you be able to endure this situation? The answer is definitely \"No\". Therefore, at least, by abolishing death penalty, we can prevent the situation of ending the life of innocent people. At least, we will have more time to investigate the truth when the innocent in jail are suspected of a serious crime. Then, there will be a greater chance that the innocent, suspected person can be saved in the future from losing their life. It's much safer society. Remember, even if we carefully investigate the incident, there is always a risk of mistakes. For these reasons, death penalty should be abolished. Thank you.",
+  "LO": "They said that first, misjudgment in the death penalty is very dangerous. However, in general misjudgements in the legal system are fairly rare and most judgements are found to be appropriate upon review. Particularly in the situation when a death penalty is sought the standard for determining the guilt of the accused is raised considerably higher than the standard used in most other cases. So the judge and jury already realize that they really have to look in depth at the situation. Additionally the person found guilty is required to appeal the decision because of exactly this sort of possibility. During the appeals process different evidence can be produced based on the particular reason that guilt was determined. The defendant can also change their legal team if they believe that they are being represented poorly.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "the situation of ending the life of innocent people",
+      "A": "in general misjudgements in the legal system are fairly rare and most judgements are found to be appropriate upon review"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      47
+    ],
+    "Y": [
+      995,
+      1046
+    ],
+    "A": [
+      83,
+      203
+    ]
+  }
+}

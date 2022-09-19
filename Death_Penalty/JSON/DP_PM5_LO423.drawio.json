@@ -1,0 +1,105 @@
+{
+  "PM": "Today's motion is \"We should abolish the death penalty.\" We strongly believe that we should put an end to this brutal practice and achieve a truly just society. Government has the responsibility because they made the society that created the criminals. Let me define today's motion. \"To abolish\" means to stop the implementation of the practice of the death penalty and instead replace it with a life in prison with the possibility of parole. \"Death penalty\" refers to the punishment currently applied to offenders of serious crimes, through which the criminal gets their life terminated by various methods including hanging, lethal injection, and electrocution. Now, let me explain our points. We have two points to make today. The first point is \"Brutalization of the society.\" The second point is \"Restorative justice as an ideal form of justice.\" Let me explain the first point, \"Brutalization of the society.\" Evidently, modern society is becoming more and more brutal; parents killing their own children without any reasons; a son killing his own aging father; a desperate individual killing random people on the street. We are constantly exposed to those kinds of news on various media including television, the Internet, and newspapers. In a sense, they are reflections of how brutal our society has become, and at the same time, they are causing the brutalization itself. We believe that the death penalty is causing the brutalization of modern society for three reasons. Firstly, the state practicing the death penalty as a form of punishment validates the notion that the taking of someone's life is an option, or a valid choice. Human life is more precious than anything else, and no one, including a nation state, should have the power to take it away. The second reason is prosecution by mistake. Actually, there are many cases of false charges like the Menda case. It could be an innocent person at the wrong place at the wrong time. A wrongful conviction, especially when it comes to the death sentence, can never be justified. Data might imply that it's only one-in-a-thousand occurrence; however, that one-in-a-thousand is a huge deal because we are talking about someone's LIFE. The third reason is the intentional abuse of the system. There was a series of random killings committed by a man in Hokkaido in July 2016. Four people were killed as a result, and his motivation was to \"put an end to his own life,\" according to a news report. If a form of punishment becomes a motivation to commit a crime, it no longer functions as a punishment. If the heaviest punishment was a sentence to life in prison, then he wouldn't have chosen to kill those four precious lives. Therefore, the death penalty should be abolished. Thank you.",
+  "LO": "They said that abolishing the death penalty is a progressive move. However, I think ending the death penalty is letting certain heinous criminals off scot free for their evil acts. If potential criminals think their punishment for their crimes is not harsh, they will be more likely to harm citizens and get off with a lighter sentence. If taxpayers are forced to pay money to keep an inmate who deserves death alive, I feel like that is an extra harm done to innocent people who had nothing to do with the criminal.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "no X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          [
+            "given rationale/condition",
+            "A"
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "no X",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "Brutalization of the society",
+      "A": "If potential criminals think their punishment for their crimes is not harsh, they will be more likely to harm citizens and get off with a lighter sentence"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      352,
+      365
+    ],
+    "Y": [
+      749,
+      777
+    ],
+    "A": [
+      181,
+      335
+    ]
+  }
+}

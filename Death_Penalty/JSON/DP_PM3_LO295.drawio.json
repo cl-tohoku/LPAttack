@@ -1,0 +1,104 @@
+{
+  "PM": "Hello, everyone. Today's topic is \"Death penalty should be abolished\". We define that the death penalty should be abolished and instead of the death penalty, we propose that the suspected are sentence to life in. We have two points. The first point is \"Executioner's suffering\". The second point is \"Cruelty of death penalty\". I will explain the first point. In present situations, a person who executes the death penalty for a criminal whose death penalty has been confirmed by a trial suffers a lot. Some methods of the death penalty include hanging and using gas chambers. Let me illustrate the case of hanging in Japan. A prisoner does not know when they will be executed until the day of execution. At the day of execution, they first enter the teacher's room and write a farewell letter. Then, they go to the antechamber for execution and are separated from the execution room by a curtain. The convict on death row is blindfolded and handcuffed, and a curtain is closed to the execution room. Finally, they go to the execution room. A rope is hung around their neck and they stand on a tread plate marked in the center of the room. Then, multiple prison officers push the button to open and close the tread, and the convict on death row falls. Those executioners feel strong stress. They don't know which button is actually connected to the input of the tread. They feel that they are responsible themselves for killing the suspect on death row by their own hands. Executers' stress is extremely overwhelming. That's why the death penalty should be abolished. Thank you.",
+  "LO": "They said that the person who executes the death penalty suffers a lot. However, it's possible that executioners could feel guilt even though they don't know for sure that they're the ones that pulled the trigger or handle that caused the death of the inmate. But we live in a technologically advanced society, and there has to be ways that we can set up the execution chamber by way of humane automation and take the stress off these people. Perhaps we can put the execution on a timer and only have it triggered after a certain amount of time with no human interaction. There are a number of conditions that could be satisfied that could bring about the final fate of the prison that doesn't involve human intervention.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "Executioner's suffering",
+      "A": "we can set up the execution chamber by way of humane automation and take the stress off these people"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      35,
+      48
+    ],
+    "Y": [
+      253,
+      276
+    ],
+    "A": [
+      341,
+      441
+    ]
+  }
+}

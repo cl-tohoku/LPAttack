@@ -1,0 +1,112 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that homework should be abolished. We defined that homework for primary students should be abolished. We have two points: First, some students tend to dislike studying. Secondly, we have more effective learning ways than homework. Let me explain our first argument. Some students tend to dislike studying but are obliged to do homework and most of students are not enthusiastic about homework. Studying, in fact, is not something to be obliged but rather for satisfying intellectual curiosity. Imagine one-year old babies. They are always looking around, crawling from corner to corner, and touching, even biting, everything unfamiliar to them. In this way, they learn new things and expand their understanding of the world. That's how studying should be. It's not good for students to be obliged to study by their teachers or parents. Being obliged will lead to problems between family. That's one of the reasons some students tend to dislike studying. That is why homework should be abolished. Thank you.",
+  "LO": "They said that homework makes you dislike studying. However, it is not relevant. In the first place, the reason why children dislike studying is not obliged by parents and teachers but children are not interested in studying or do not understand the contents of classes. So if school abolish homework, students don't like studying. This is because after taking policy, the contents of classes are remain difficult, and students do not interested in studying. Therefore it is not relevant to this motion.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "promotes",
+            "A"
+          ],
+          [
+            "A",
+            "is bad"
+          ]
+        ],
+        [
+          [
+            "A",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "no X",
+            "promotes",
+            "A"
+          ],
+          [
+            "A",
+            "is bad"
+          ]
+        ],
+        [
+          [
+            "A",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "no X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "dislike studying",
+      "A": "do not understand the contents of classes"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      52,
+      60
+    ],
+    "Y": [
+      198,
+      214
+    ],
+    "A": [
+      228,
+      269
+    ]
+  }
+}

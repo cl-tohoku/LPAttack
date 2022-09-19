@@ -1,0 +1,105 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that homework doesn't teach how to live. However, when it comes to learning real life skills, homework probably does a better job than in-class studying. For instance, homework today often involves the very real life skill of Googling, specifically, and learning how and where to find valid resources, generally. Resourcefulness is a key life skill that homework fosters. Because homework isn't done with teacher supervision, it requires students to follow basic directions and then troubleshoot solutions to difficulties encountered along the way. Moreover, because homework is done independently by students, it helps develop traits of resilience, creativity, critical thinking, and work ethic. Thus, homework helps students learn how to live in a world that is much bigger than the classroom and one that is filled with more and different challenges.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          [
+            "given rationale/condition",
+            "A"
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "X",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "learn how to live and manage their own lives",
+      "A": "homework isn't done with teacher supervision, it requires students to follow basic directions and then troubleshoot solutions to difficulties encountered along the way"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      521,
+      565
+    ],
+    "A": [
+      390,
+      557
+    ]
+  }
+}

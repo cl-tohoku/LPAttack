@@ -1,0 +1,105 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". We have two points: The first point is \"free time\" and the second point is \"decrease burden on teachers\". I will explain the first point of \"free time\". We believe that if homework were to be abolished, we could have more free time. As a result, we could do more of what we really wanted like club activities, hobbies, or playing with friends. In my case, I go to tennis club after class until 5:00 pm and then I go to cram school until 8:00 pm. After this full day, I arrive at my home around 8:40 pm to eat dinner and take a shower. At nearly 10:00 pm I start my homework. I have a lot of homework. As a result, I go to bed late at night at nearly 1:00 am in the morning and I don't have the opportunity to sleep for a long period of time. It is not healthy. Therefore, homework should be abolished. Thank you.",
+  "LO": "They said that homework keeps kids from doing more of what they really want to do, so it should be abolished. However, if every kid were perfect, this argument might make sense. \"Perfect\" kids choose only wholesome, productive activities to fill their after-school time with. These kids have hobbies like Scouting, volunteering at a pet rescue, or learning a new language. These kids spend their time taking piano lessons, playing chess online, and interacting with their parents and siblings. However, we know that real kids aren't perfect. The kind of things kids \"really want to do\" tend to include surfing questionable Internet sites, playing violent video games, and watching TV shows and movies that are not G-rated. Homework assignments serve the important role of turning some of that risky free time into safe and productive time spent learning.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "no X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          [
+            "given rationale/condition",
+            "A"
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "no X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "do more of what we really wanted",
+      "A": "The kind of things kids \"really want to do\" tend to include surfing questionable Internet sites, playing violent video games, and watching TV shows and movies that are not G-rated"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      320,
+      352
+    ],
+    "A": [
+      542,
+      721
+    ]
+  }
+}

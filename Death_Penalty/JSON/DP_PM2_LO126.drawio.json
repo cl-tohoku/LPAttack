@@ -1,0 +1,104 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Death penalty should be abolished\". I am going to make two arguments. First, misjudgment in the death penalty is very dangerous. Second, the death penalty is a cruel penalty. Let me start with the first argument. Humans make mistakes. This is the nature of a human and we cannot deny it completely. Of course, technology has been developed such as DNA testing, surveillance camera, and so on. However, still there is still a possibility of misjudgment. If misjudgment happens when the court sentences the suspected criminal the death penalty, it will be irreparable. When we deprive the life of a suspected criminal, they will never be able to live again. It's very terrible. Imagine the case where your family member is mistakenly arrested by the police and unfortunately suspected to be sentenced to the death penalty. Would you be able to endure this situation? The answer is definitely \"No\". Therefore, at least, by abolishing death penalty, we can prevent the situation of ending the life of innocent people. At least, we will have more time to investigate the truth when the innocent in jail are suspected of a serious crime. Then, there will be a greater chance that the innocent, suspected person can be saved in the future from losing their life. It's much safer society. Remember, even if we carefully investigate the incident, there is always a risk of mistakes. For these reasons, death penalty should be abolished. Thank you.",
+  "LO": "They said that because of the chance of mistaken judgment, the death penalty should be abolished. However, reducing the chances of mistakes of judgment in capital punishment should then be the goal. Instead of abandoning the death penalty, which is an effective tool of the criminal justice system, we should work to lower the incidence of mistaken judgment in such cases. One way to do this is to raise the bar for cases deemed suitable to warrant the death penalty. Another way is to increase the burden of proof needed for a conviction in a capital punishment case. Expanding the number of jurors and insisting on a unanimous juror verdict in death penalty case would also lower the odds of misjudgment. Likewise, juries should be better educated about applying the death penalty, and they should be protected from retribution and prohibited from profiting from their participation -- ensuring that jurors vote based on evidence only.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "the situation of ending the life of innocent people",
+      "A": "raise the bar for cases deemed suitable to warrant the death penalty"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      47
+    ],
+    "Y": [
+      995,
+      1046
+    ],
+    "A": [
+      398,
+      466
+    ]
+  }
+}

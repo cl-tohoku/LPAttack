@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that forcing homework on students makes them passive. However, it is more logical to say that in-classroom lessons instill passivity in students. In the classroom, it is often true that students are basically spoon-fed lessons, while passively sitting in their desks as the teacher stands above them, dispelling \"wisdom\". In contrast, when students are assigned homework, they have to take a more active role. It is up to the student to prepare and complete the assignment, without the direct supervision of the teacher. This requires the student to apply himself and work independently, rather than sit back and let the teacher do the work. When contrasted with in-school study, homework is comparatively free of rules and constraints. The liberty to decide when (and whether) to do the homework assignment, what sources to use, and other aspects of how to complete the work, make homework more active than passive for the student.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "make them passive in character, rather than active",
+      "A": "This requires the student to apply himself and work independently, rather than sit back and let the teacher do the work"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      143,
+      193
+    ],
+    "A": [
+      531,
+      650
+    ]
+  }
+}

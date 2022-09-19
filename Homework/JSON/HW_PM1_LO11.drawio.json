@@ -1,0 +1,93 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". We have two points: The first point is \"free time\" and the second point is \"decrease burden on teachers\". I will explain the first point of \"free time\". We believe that if homework were to be abolished, we could have more free time. As a result, we could do more of what we really wanted like club activities, hobbies, or playing with friends. In my case, I go to tennis club after class until 5:00 pm and then I go to cram school until 8:00 pm. After this full day, I arrive at my home around 8:40 pm to eat dinner and take a shower. At nearly 10:00 pm I start my homework. I have a lot of homework. As a result, I go to bed late at night at nearly 1:00 am in the morning and I don't have the opportunity to sleep for a long period of time. It is not healthy. Therefore, homework should be abolished. Thank you.",
+  "LO": "They said that if we can have more free time, we can do more of what we really want. However, all students cannot do a worthy activity for themselves.Some do more of what we really want, others waste time on doing nothing or playing videogames. So it is neseccary for us to do homework not to waste time. we think doing homework make a habit for healthy life. \"Heavy\" homework makes us unhealthy life, but \"homework\" is not. We surely need to think the amount of homework, but it is not reason for unneccesary homework.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "A"
+        ],
+        [
+          "A",
+          "is bad"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "suppresses",
+            "A"
+          ],
+          [
+            "A",
+            "is bad"
+          ]
+        ],
+        "is more important/severe/has greater weight than",
+        [
+          [
+            "X",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "do more of what we really wanted like club activities, hobbies, or playing with friends",
+      "A": "waste time on doing nothing or playing videogames"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      320,
+      407
+    ],
+    "A": [
+      194,
+      243
+    ]
+  }
+}

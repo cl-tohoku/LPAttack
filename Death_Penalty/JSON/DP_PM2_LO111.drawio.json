@@ -1,0 +1,104 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Death penalty should be abolished\". I am going to make two arguments. First, misjudgment in the death penalty is very dangerous. Second, the death penalty is a cruel penalty. Let me start with the first argument. Humans make mistakes. This is the nature of a human and we cannot deny it completely. Of course, technology has been developed such as DNA testing, surveillance camera, and so on. However, still there is still a possibility of misjudgment. If misjudgment happens when the court sentences the suspected criminal the death penalty, it will be irreparable. When we deprive the life of a suspected criminal, they will never be able to live again. It's very terrible. Imagine the case where your family member is mistakenly arrested by the police and unfortunately suspected to be sentenced to the death penalty. Would you be able to endure this situation? The answer is definitely \"No\". Therefore, at least, by abolishing death penalty, we can prevent the situation of ending the life of innocent people. At least, we will have more time to investigate the truth when the innocent in jail are suspected of a serious crime. Then, there will be a greater chance that the innocent, suspected person can be saved in the future from losing their life. It's much safer society. Remember, even if we carefully investigate the incident, there is always a risk of mistakes. For these reasons, death penalty should be abolished. Thank you.",
+  "LO": "They said that because mistakes are human nature, the risk of misjudgment in death sentence cases is too great. However, this argument makes quite a leap in logic. We are exposed to risks due to human error in nearly every aspect of life, yet we accept those risks for the most part. The cost of human error is, admittedly, greater in some instances than others. But death penalty cases aren't alone in carrying a life-or-death risk. When we decide to travel by plane, for instance, we accept the potentially fatal risk of human error on the part of the pilot and air traffic controller. Likewise, a heart surgeon's built-in human error puts all of his patients' lives at risk. The best we can due is to minimize the risk of human error wherever we encounter it. In capital punishment cases, this means demanding effective legal counsel and unbiased juries, as an example.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "the situation of ending the life of innocent people",
+      "A": "demanding effective legal counsel and unbiased juries"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      47
+    ],
+    "Y": [
+      995,
+      1046
+    ],
+    "A": [
+      803,
+      856
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that the death penalty should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to abolish the death penalty all over the world and introduce a life-imprisonment system. It means that criminals stay in jail forever. We have two points. First point is \"Rehabilitation\". The second point is \"World's trend\". So, let me explain our first argument. Our claim is that the death penalty deprives the chance of rehabilitation of the criminals. Our reasoning is as follows. In the case of a serious crime such as murder, especially random killing of many people, a heavy punishment should be sentenced. The death penalty might be an option, but it just ends the life of a criminal and solves nothing. The criminal has no chance to reflect on what they have done. They need to reflect on their wrong-doing every day. They should spend their lives reflecting on it. Life imprisonment system is, in a sense, a very severe punishment. Criminals are restricted of their freedom all day. They need to continue to apologize for the rest of their life while thinking about their victims. Moreover, there is a perspective that the society creates the criminals. For example, imagine a case that a student who was always been bullied and notified others such as teachers and the community, but they did nothing to help. The student was ignored by everyone. In that case, it is understandable that the student attacks others due to their anger at a society where no one helps. Like this, a society also has a responsibility for a criminal, and for this reason, it is a government task to set the opportunity of rehabilitation in the life imprisonment system. The death penalty is an irresponsible act by the nation. For all these reasons, we beg to propose. Thank you.",
+  "LO": "They said that a life sentence is better than the death penalty because criminals should spend their lives reflecting on their wrong-doing. However, whether a prisoner is sentenced to death or to a life behind bars, no one but that prisoner can decide whether to admit to their wrong-doing and reflect on it, or to continue denying it. Some people never come around to admitting wrong-doing, whether their offense is the taking of an innocent life or cheating on a girlfriend. It only takes a moment to apologize, to express true remorse, or to confess one's sins. And the realization that it is better to admit wrong-doing rather than remaining unrepentant often comes in an instant. Thus, there is no time frame for remorse and reflection. Furthermore, with lengthy appeals and such, death row inmates realistically have plenty of time to come to this realization.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "criminal has no chance to reflect on what they have done",
+      "A": "It only takes a moment to apologize, to express true remorse, or to confess one's sins"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      211,
+      224
+    ],
+    "Y": [
+      813,
+      869
+    ],
+    "A": [
+      477,
+      563
+    ]
+  }
+}

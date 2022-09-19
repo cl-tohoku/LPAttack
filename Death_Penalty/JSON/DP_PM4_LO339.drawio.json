@@ -1,0 +1,103 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that the death penalty should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to abolish the death penalty all over the world and introduce a life-imprisonment system. It means that criminals stay in jail forever. We have two points. First point is \"Rehabilitation\". The second point is \"World's trend\". So, let me explain our first argument. Our claim is that the death penalty deprives the chance of rehabilitation of the criminals. Our reasoning is as follows. In the case of a serious crime such as murder, especially random killing of many people, a heavy punishment should be sentenced. The death penalty might be an option, but it just ends the life of a criminal and solves nothing. The criminal has no chance to reflect on what they have done. They need to reflect on their wrong-doing every day. They should spend their lives reflecting on it. Life imprisonment system is, in a sense, a very severe punishment. Criminals are restricted of their freedom all day. They need to continue to apologize for the rest of their life while thinking about their victims. Moreover, there is a perspective that the society creates the criminals. For example, imagine a case that a student who was always been bullied and notified others such as teachers and the community, but they did nothing to help. The student was ignored by everyone. In that case, it is understandable that the student attacks others due to their anger at a society where no one helps. Like this, a society also has a responsibility for a criminal, and for this reason, it is a government task to set the opportunity of rehabilitation in the life imprisonment system. The death penalty is an irresponsible act by the nation. For all these reasons, we beg to propose. Thank you.",
+  "LO": "They said that rehabilitation, not the death penalty, should be the focus of how we deal with serious crime. However, rehabilitation is just one of the goals of the criminal justice system. It is a mistake to put all the focus on this one goal, while ignoring the others. A prison sentence is also supposed to serve as a deterrent, meaning that the sentence is unpleasant enough to make would-be criminals think twice about taking the risk. Prison is intended as punishment, vengeance, or retribution too; we expect criminals to pay society back for their wrongdoings, and taking away their freedom is one way to exact punishment. Incarceration is also a way to incapacitate those who commit crimes. The death penalty happens to be very effective at achieving all of these objectives, with the exception of rehabilitation. However, a life sentence is also a poor way to achieve this last goal since the inmate isn't expected to reenter society.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "acknowledges",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ],
+      "but nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "opportunity of rehabilitation in the life imprisonment system",
+      "A": "a life sentence is also a poor way to achieve this last goal since the inmate isn't expected to reenter society."
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      211,
+      224
+    ],
+    "Y": [
+      1693,
+      1754
+    ],
+    "A": [
+      832,
+      944
+    ]
+  }
+}

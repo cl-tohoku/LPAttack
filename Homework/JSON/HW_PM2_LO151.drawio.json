@@ -1,0 +1,105 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that forcing students to do homework will make them passive in character and thus homework should be abolished. However, \"passive\" character is somewhat rather needed to acquire something in the first place, because this character leads people to receive teacher's advices that help them to acquire it faster. For instance, if you need to acquire knowledge or knowhow to enter the university that you want to enter, you should follow teacher's advices or instructions in order to acquire knowledge you need faster. Certainly, you are \"passive\" and somewhat have \"passive\" character in that you simply follow advices or instructions and don't think the way by yourself, but it is surely needed. Considering that one of the roles of schools that give basic knowledge or knowhow in the limited term, passive character of children is somewhat rather needed, thus what Prime Minister said is not the effective reason to abolish homework.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          [
+            "given rationale/condition",
+            "A"
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "make them passive in character, rather than active",
+      "A": "\"passive\" character is somewhat rather needed to acquire something in the first place, because this character leads people to receive teacher's advices that help them to acquire it faster"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      143,
+      193
+    ],
+    "A": [
+      131,
+      318
+    ]
+  }
+}

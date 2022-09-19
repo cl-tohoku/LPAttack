@@ -1,0 +1,104 @@
+{
+  "PM": "Hello, everyone. Today's topic is \"Death penalty should be abolished\". We define that the death penalty should be abolished and instead of the death penalty, we propose that the suspected are sentence to life in. We have two points. The first point is \"Executioner's suffering\". The second point is \"Cruelty of death penalty\". I will explain the first point. In present situations, a person who executes the death penalty for a criminal whose death penalty has been confirmed by a trial suffers a lot. Some methods of the death penalty include hanging and using gas chambers. Let me illustrate the case of hanging in Japan. A prisoner does not know when they will be executed until the day of execution. At the day of execution, they first enter the teacher's room and write a farewell letter. Then, they go to the antechamber for execution and are separated from the execution room by a curtain. The convict on death row is blindfolded and handcuffed, and a curtain is closed to the execution room. Finally, they go to the execution room. A rope is hung around their neck and they stand on a tread plate marked in the center of the room. Then, multiple prison officers push the button to open and close the tread, and the convict on death row falls. Those executioners feel strong stress. They don't know which button is actually connected to the input of the tread. They feel that they are responsible themselves for killing the suspect on death row by their own hands. Executers' stress is extremely overwhelming. That's why the death penalty should be abolished. Thank you.",
+  "LO": "They said that the suffering of the executioner is a valid reason to abolish the death penalty. However, there is no reason for an executioner to have to feel stressed or responsible, because you don't really need a human to do the job. The role of executioner can surely be automated, so that no one has to feel guilty about taking another's life -- even if the life taken is that of someone found guilty of an awful crime. In the example given, the death sentence is carried out by pushing a button, a job that can easily be done by a robot or programmed into a computer. Whether the form of capital punishment is hanging, electric chair, gas chamber or lethal injection, the technology exists to automate the process, so no human has to physically perform the task. This invalidates the argument about executioner suffering since robots don't feel.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "Executioner's suffering",
+      "A": "The role of executioner can surely be automated"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      35,
+      48
+    ],
+    "Y": [
+      253,
+      276
+    ],
+    "A": [
+      237,
+      284
+    ]
+  }
+}

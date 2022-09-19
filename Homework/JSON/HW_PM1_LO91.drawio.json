@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". We have two points: The first point is \"free time\" and the second point is \"decrease burden on teachers\". I will explain the first point of \"free time\". We believe that if homework were to be abolished, we could have more free time. As a result, we could do more of what we really wanted like club activities, hobbies, or playing with friends. In my case, I go to tennis club after class until 5:00 pm and then I go to cram school until 8:00 pm. After this full day, I arrive at my home around 8:40 pm to eat dinner and take a shower. At nearly 10:00 pm I start my homework. I have a lot of homework. As a result, I go to bed late at night at nearly 1:00 am in the morning and I don't have the opportunity to sleep for a long period of time. It is not healthy. Therefore, homework should be abolished. Thank you.",
+  "LO": "They said that there is no time to do homework. However, this argument assumes that teachers are inflexible when it comes to homework deadlines. In fact, if a student has a legitimate reason for needing extra time for homework, most teachers will be reasonable enough to grant it. This argument also assumes that homework assignments are given on such short notice that it's impossible to get the work done while balancing other activities. In fact, most teachers recognize that kids participate in extra-curricular activities and encourage that participation. Consequently, it is rare for teachers to assign so much homework that it can't possibly be done while also having time for clubs and sports. Having enough time for homework is more a matter of learning how to juggle and balance activities than having to quit one in order to manage the other.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't suppress",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't suppress",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "free time",
+      "A": "Having enough time for homework is more a matter of learning how to juggle and balance activities"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      34,
+      43
+    ],
+    "A": [
+      702,
+      799
+    ]
+  }
+}

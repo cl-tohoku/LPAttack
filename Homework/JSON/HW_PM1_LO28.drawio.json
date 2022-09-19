@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". We have two points: The first point is \"free time\" and the second point is \"decrease burden on teachers\". I will explain the first point of \"free time\". We believe that if homework were to be abolished, we could have more free time. As a result, we could do more of what we really wanted like club activities, hobbies, or playing with friends. In my case, I go to tennis club after class until 5:00 pm and then I go to cram school until 8:00 pm. After this full day, I arrive at my home around 8:40 pm to eat dinner and take a shower. At nearly 10:00 pm I start my homework. I have a lot of homework. As a result, I go to bed late at night at nearly 1:00 am in the morning and I don't have the opportunity to sleep for a long period of time. It is not healthy. Therefore, homework should be abolished. Thank you.",
+  "LO": "They said that students will be able to get more free time. However, it's not always the case. That's because their parent will start to impose additional studying during their free time, which will be created by abolishing homework. Because of lack of the homework, It's obvious that parents will worry about children's academic ability more if it were abolished. In that instance we can easily imagine that they try to encourage children's studying. Hence we say even if homework were abolished, they might be coerced to go to cram school much longer time than now, read more textbooks than now, and so on. That's the reason why they are less likely to be able to get more free time even if homework were abolished.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "free time",
+      "A": "their parent will start to impose additional studying during their free time"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      105,
+      114
+    ],
+    "A": [
+      110,
+      186
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that forcing students to do homework will make them passive in character, rather than active. However, it is completely not true. Rather, homework is also beneficial to make student active. Please imagine the case you were in long vacation of school. On that occasion, students need to tremendous amount of school assignments. However, you might postpone these homework because you have lot of fun such as playing with friends, watch fireworks, go to summer festival, swim at pool and sea , and so on. I'm sure many of you have experienced this before. Through such experiences, student learn the necessity of self management. So I believe homework make student active.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "promotes",
+            "A"
+          ],
+          [
+            "A",
+            "is good"
+          ]
+        ],
+        [
+          [
+            "A",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "A"
+            ],
+            [
+              "A",
+              "is good"
+            ]
+          ],
+          [
+            [
+              "A",
+              "suppresses",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "make them passive in character, rather than active",
+      "A": "learn the necessity of self management"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      143,
+      193
+    ],
+    "A": [
+      597,
+      635
+    ]
+  }
+}

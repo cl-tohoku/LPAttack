@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Death penalty should be abolished\". I am going to make two arguments. First, misjudgment in the death penalty is very dangerous. Second, the death penalty is a cruel penalty. Let me start with the first argument. Humans make mistakes. This is the nature of a human and we cannot deny it completely. Of course, technology has been developed such as DNA testing, surveillance camera, and so on. However, still there is still a possibility of misjudgment. If misjudgment happens when the court sentences the suspected criminal the death penalty, it will be irreparable. When we deprive the life of a suspected criminal, they will never be able to live again. It's very terrible. Imagine the case where your family member is mistakenly arrested by the police and unfortunately suspected to be sentenced to the death penalty. Would you be able to endure this situation? The answer is definitely \"No\". Therefore, at least, by abolishing death penalty, we can prevent the situation of ending the life of innocent people. At least, we will have more time to investigate the truth when the innocent in jail are suspected of a serious crime. Then, there will be a greater chance that the innocent, suspected person can be saved in the future from losing their life. It's much safer society. Remember, even if we carefully investigate the incident, there is always a risk of mistakes. For these reasons, death penalty should be abolished. Thank you.",
+  "LO": "They said that the death sentence doesn't allow a chance to reverse a legal mistake, so it should be abolished. However, actually, the ability to reverse a legal mistake is part of every death row sentence in the form of an automatic appeal. As part of the appeals process, the convicted criminal isn't limited to having his original trial record reviewed. There are a variety of legal issues that the convicted party can exploit in hopes of winning a lesser sentence or gaining release from prison. For instance, he can complain about misconduct by a jury member or lack of effective counsel. He can introduce new evidence into the case, or he can claim that evidence was withheld by the state. Because the appeals process is a right of the death row inmate, there is ample chance for him to prove his true innocence or to gain freedom due to a legal loophole.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "the situation of ending the life of innocent people",
+      "A": "the ability to reverse a legal mistake is part of every death row sentence in the form of an automatic appeal"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      47
+    ],
+    "Y": [
+      995,
+      1046
+    ],
+    "A": [
+      131,
+      240
+    ]
+  }
+}

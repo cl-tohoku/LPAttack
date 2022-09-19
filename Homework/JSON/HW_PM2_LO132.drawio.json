@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that homework makes people passive and homework should be abolished to improve the capability of active learning. However, abolishing homework cannot connect to improve the ability of active learning. If you abolish homework, people can absorb in playing, not study by yourself especially for students in elementary school and junior high school. A well self-regulated person may study on their initiatives, but many young children and juveniles do not still have enough ability of self-control. In that situation, abolishing homework does not cultivate the active learning, so the government opinion is rejected.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "study on their own initiative",
+      "A": "many young children and juveniles do not still have enough ability of self-control"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      1033,
+      1062
+    ],
+    "A": [
+      422,
+      504
+    ]
+  }
+}

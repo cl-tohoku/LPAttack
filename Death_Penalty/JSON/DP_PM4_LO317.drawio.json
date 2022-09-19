@@ -1,0 +1,103 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that the death penalty should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to abolish the death penalty all over the world and introduce a life-imprisonment system. It means that criminals stay in jail forever. We have two points. First point is \"Rehabilitation\". The second point is \"World's trend\". So, let me explain our first argument. Our claim is that the death penalty deprives the chance of rehabilitation of the criminals. Our reasoning is as follows. In the case of a serious crime such as murder, especially random killing of many people, a heavy punishment should be sentenced. The death penalty might be an option, but it just ends the life of a criminal and solves nothing. The criminal has no chance to reflect on what they have done. They need to reflect on their wrong-doing every day. They should spend their lives reflecting on it. Life imprisonment system is, in a sense, a very severe punishment. Criminals are restricted of their freedom all day. They need to continue to apologize for the rest of their life while thinking about their victims. Moreover, there is a perspective that the society creates the criminals. For example, imagine a case that a student who was always been bullied and notified others such as teachers and the community, but they did nothing to help. The student was ignored by everyone. In that case, it is understandable that the student attacks others due to their anger at a society where no one helps. Like this, a society also has a responsibility for a criminal, and for this reason, it is a government task to set the opportunity of rehabilitation in the life imprisonment system. The death penalty is an irresponsible act by the nation. For all these reasons, we beg to propose. Thank you.",
+  "LO": "They said that the death penalty should be abolished because people who are imprisoned for life will be aptly punished for their crimes. However, some people commit crimes so horrible that justice can only be served if they are put to death. People can be happy in prison. They have a roof over their heads and their needs are met. Why should taxpayers pay to support life imprisonment for these serious criminals. That old saying that goes, \"An eye for an eye\" does apply to some criminal acts. If a person is murdered, their life has obviously been taken away from them. Therefore, why should the person who murdered them be allowed to live out their life, being somewhat protected in prison. It doesn't make sense. The murderer or rapist who gets a life sentence is not contributing anything to society anymore. Why should they live in a tax-supported institution for the rest of their lives? Many of them have no remorse, and probably laugh about what they gotten away with to an extent.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "acknowledges",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ],
+      "but nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "life-imprisonment system",
+      "A": "some people commit crimes so horrible that justice can only be served if they are put to death"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      56,
+      69
+    ],
+    "Y": [
+      260,
+      284
+    ],
+    "A": [
+      146,
+      240
+    ]
+  }
+}

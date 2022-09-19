@@ -1,0 +1,93 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Death penalty should be abolished\". I am going to make two arguments. First, misjudgment in the death penalty is very dangerous. Second, the death penalty is a cruel penalty. Let me start with the first argument. Humans make mistakes. This is the nature of a human and we cannot deny it completely. Of course, technology has been developed such as DNA testing, surveillance camera, and so on. However, still there is still a possibility of misjudgment. If misjudgment happens when the court sentences the suspected criminal the death penalty, it will be irreparable. When we deprive the life of a suspected criminal, they will never be able to live again. It's very terrible. Imagine the case where your family member is mistakenly arrested by the police and unfortunately suspected to be sentenced to the death penalty. Would you be able to endure this situation? The answer is definitely \"No\". Therefore, at least, by abolishing death penalty, we can prevent the situation of ending the life of innocent people. At least, we will have more time to investigate the truth when the innocent in jail are suspected of a serious crime. Then, there will be a greater chance that the innocent, suspected person can be saved in the future from losing their life. It's much safer society. Remember, even if we carefully investigate the incident, there is always a risk of mistakes. For these reasons, death penalty should be abolished. Thank you.",
+  "LO": "They said that if there is a misjudgement it will be irrepareable. However, but my point is all judgement can not be misjudged. Some criminal offenses and corresponding criminals are identified as clear as day light. Some of these criminals regrets for their doings and they feel sorrow for what happened. But some criminals make happen the incident with long plans and cold head. They also have no regret for their doing. They do not feel sorry or even they do not accept that what they made happen were wrong. Actually they are not the part of humanity and society. A longer life of their is the threat to other human and society. It increase the doubts and distrust between people. So it is safe for society to eliminate these creature without spending time and money for them. To ensure safety and belief it is necessary that Death penalty should not be abolished.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "A"
+        ],
+        [
+          "A",
+          "is good"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "promotes",
+            "A"
+          ],
+          [
+            "A",
+            "is good"
+          ]
+        ],
+        "is more important/severe/has greater weight than",
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "the situation of ending the life of innocent people",
+      "A": "ensure safety and belief"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      47
+    ],
+    "Y": [
+      995,
+      1046
+    ],
+    "A": [
+      784,
+      808
+    ]
+  }
+}

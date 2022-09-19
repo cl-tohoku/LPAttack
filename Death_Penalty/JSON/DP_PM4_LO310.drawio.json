@@ -1,0 +1,103 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that the death penalty should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to abolish the death penalty all over the world and introduce a life-imprisonment system. It means that criminals stay in jail forever. We have two points. First point is \"Rehabilitation\". The second point is \"World's trend\". So, let me explain our first argument. Our claim is that the death penalty deprives the chance of rehabilitation of the criminals. Our reasoning is as follows. In the case of a serious crime such as murder, especially random killing of many people, a heavy punishment should be sentenced. The death penalty might be an option, but it just ends the life of a criminal and solves nothing. The criminal has no chance to reflect on what they have done. They need to reflect on their wrong-doing every day. They should spend their lives reflecting on it. Life imprisonment system is, in a sense, a very severe punishment. Criminals are restricted of their freedom all day. They need to continue to apologize for the rest of their life while thinking about their victims. Moreover, there is a perspective that the society creates the criminals. For example, imagine a case that a student who was always been bullied and notified others such as teachers and the community, but they did nothing to help. The student was ignored by everyone. In that case, it is understandable that the student attacks others due to their anger at a society where no one helps. Like this, a society also has a responsibility for a criminal, and for this reason, it is a government task to set the opportunity of rehabilitation in the life imprisonment system. The death penalty is an irresponsible act by the nation. For all these reasons, we beg to propose. Thank you.",
+  "LO": "They said that rehabilitation of criminals, not capital punishment, is what we should strive for. However, the idea of being able to transform a criminal into a contributing member of society is a lofty ideal. If it worked, and if we had evidence of its success, rehabilitation might be the ultimate goal of prison. However, we don't have a formula for how to rehabilitate prisoners whose criminal behavior has multiple and often unknown causes. And, even if we had such a formula, we still wouldn't have the vast resources to implement it. Rehabilitation requires a combination of measures, including academic education, vocational training, behavioral therapy, medication, and spiritual counseling. Keeping prisoners behind bars is expensive enough without adding a whole team of rehabilitation experts to the budget. The death penalty, when it is delivered swiftly, is far more cost effective.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "acknowledges",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ],
+      "but nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "the chance of rehabilitation of the criminals",
+      "A": "Keeping prisoners behind bars is expensive enough without adding a whole team of rehabilitation experts to the budget"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      56,
+      69
+    ],
+    "Y": [
+      506,
+      551
+    ],
+    "A": [
+      701,
+      818
+    ]
+  }
+}

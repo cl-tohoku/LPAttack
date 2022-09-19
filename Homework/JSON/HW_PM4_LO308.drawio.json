@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that homework should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to talk about homework in every school in Japan. We have two points in our argument. The first point is \"harmful efforts\" and the second point is \"decreasing teacher's burden\". Let me explain our first argument. Our claim is that homework has harmful efforts on educational development of school students. Some students have memorized the incorrect way to study with homework. I'll give you some examples. In high school, students have lots of things to do, like hobbies, club activities, part-time jobs and so on. So how do students who have little time to do homework deal with it Some of them do homework during class, which is inefficient not only with regard to the homework but also to the class. In a worst-case scenario, they copy it from their classmates. Of course, it means that they would learn nothing. But they receive a passing score as long as they finish homework without understanding how to properly study. Who thinks homework works adequately in these situations We should abolish homework in order to let students understand the right and wrong ways to study. For all these reasons, we strongly support the motion. Thank you.",
+  "LO": "They said that students do homework during their classes. However, we can say it's not matter in this debate. Because it's not the problem of the homework but the problem of these students such as their attitude for studying. Because it's not inherent problem of homework. Even if it's to some extent the problem of students, the response should be giving them incentive to study rather than abolishing homework. That's why their claim can't be the reason for affirming this motion.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "the incorrect way to study",
+      "A": "it's not the problem of the homework but the problem of these students such as their attitude for studying"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      52,
+      60
+    ],
+    "Y": [
+      522,
+      548
+    ],
+    "A": [
+      118,
+      224
+    ]
+  }
+}

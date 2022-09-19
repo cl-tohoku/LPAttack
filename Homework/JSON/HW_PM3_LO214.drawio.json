@@ -1,0 +1,103 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that homework should be abolished. We defined that homework for primary students should be abolished. We have two points: First, some students tend to dislike studying. Secondly, we have more effective learning ways than homework. Let me explain our first argument. Some students tend to dislike studying but are obliged to do homework and most of students are not enthusiastic about homework. Studying, in fact, is not something to be obliged but rather for satisfying intellectual curiosity. Imagine one-year old babies. They are always looking around, crawling from corner to corner, and touching, even biting, everything unfamiliar to them. In this way, they learn new things and expand their understanding of the world. That's how studying should be. It's not good for students to be obliged to study by their teachers or parents. Being obliged will lead to problems between family. That's one of the reasons some students tend to dislike studying. That is why homework should be abolished. Thank you.",
+  "LO": "They said that they should learn based on their curiosity because babies learn many things from it. However, it's not so comprehensive. That's because babies' characteristic cannot be applied to students' one. They have lots of difference. For example, They have to pass an entrance exam of high school at an early date. They are needed to take a good score in the test of their school. However, babies don't have those tasks. That's the reason why their characterizations are hugely different, and it is too difficult to discuss about this motion based on the analysis of babies.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "acknowledges",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ],
+      "but nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "satisfying intellectual curiosity",
+      "A": "They have to pass an entrance exam of high school at an early date"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      52,
+      60
+    ],
+    "Y": [
+      506,
+      539
+    ],
+    "A": [
+      253,
+      319
+    ]
+  }
+}

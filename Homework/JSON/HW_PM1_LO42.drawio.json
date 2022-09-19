@@ -1,0 +1,104 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". We have two points: The first point is \"free time\" and the second point is \"decrease burden on teachers\". I will explain the first point of \"free time\". We believe that if homework were to be abolished, we could have more free time. As a result, we could do more of what we really wanted like club activities, hobbies, or playing with friends. In my case, I go to tennis club after class until 5:00 pm and then I go to cram school until 8:00 pm. After this full day, I arrive at my home around 8:40 pm to eat dinner and take a shower. At nearly 10:00 pm I start my homework. I have a lot of homework. As a result, I go to bed late at night at nearly 1:00 am in the morning and I don't have the opportunity to sleep for a long period of time. It is not healthy. Therefore, homework should be abolished. Thank you.",
+  "LO": "They said that by abolishing homework, students health will be secured. . However, this argument doesn't explain why we should \"abolish\" the homework. If it's too much for the student, we can just simply reduce the amount. And if such a situation is common to every student, they or their parents will likely complain about it to protect their health. Because health should be secured in any situation, even in our paradigm. Even if by magical mechanism, teachers can't reduce the amount of homework, we strongly believe that homework should be prioritized over other activities such as playing with friends. Homework is essential for studying materials to acquire the basic knowledge we learn in school. More specific parts will be explained in my speech.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "suppresses",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "suppresses",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "opportunity to sleep for a long period of time",
+      "A": "If it's too much for the student, we can just simply reduce the amount"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      759,
+      805
+    ],
+    "A": [
+      151,
+      221
+    ]
+  }
+}

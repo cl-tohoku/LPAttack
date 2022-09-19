@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that the death penalty should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to abolish the death penalty all over the world and introduce a life-imprisonment system. It means that criminals stay in jail forever. We have two points. First point is \"Rehabilitation\". The second point is \"World's trend\". So, let me explain our first argument. Our claim is that the death penalty deprives the chance of rehabilitation of the criminals. Our reasoning is as follows. In the case of a serious crime such as murder, especially random killing of many people, a heavy punishment should be sentenced. The death penalty might be an option, but it just ends the life of a criminal and solves nothing. The criminal has no chance to reflect on what they have done. They need to reflect on their wrong-doing every day. They should spend their lives reflecting on it. Life imprisonment system is, in a sense, a very severe punishment. Criminals are restricted of their freedom all day. They need to continue to apologize for the rest of their life while thinking about their victims. Moreover, there is a perspective that the society creates the criminals. For example, imagine a case that a student who was always been bullied and notified others such as teachers and the community, but they did nothing to help. The student was ignored by everyone. In that case, it is understandable that the student attacks others due to their anger at a society where no one helps. Like this, a society also has a responsibility for a criminal, and for this reason, it is a government task to set the opportunity of rehabilitation in the life imprisonment system. The death penalty is an irresponsible act by the nation. For all these reasons, we beg to propose. Thank you.",
+  "LO": "They said that the death penalty should be abolished because it denies criminals the chance to reflect on what they've done. However, sitting on death row actually provides a nearly perfect setting for reflecting on the actions that led the inmate to this fate. With lengthy appeals pretty much standard in death penalty cases, it isn't unusual for death row inmates to spend years awaiting their execution. During this time, they are separated from the general prison population. Thus, they have nothing to do but to think about what they've done and who they've wronged. They have time to come to terms with their offense, to make peace with their maker, even to finally express remorse for their crime and apologize to their victim. The death row inmate often has the opportunity to meet with clergy and confess, as well, another opportunity for self-reflection.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "criminal has no chance to reflect on what they have done",
+      "A": "sitting on death row actually provides a nearly perfect setting for reflecting on the actions that led the inmate to this fate"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      211,
+      224
+    ],
+    "Y": [
+      814,
+      870
+    ],
+    "A": [
+      134,
+      260
+    ]
+  }
+}

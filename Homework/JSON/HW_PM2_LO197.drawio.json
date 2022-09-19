@@ -1,0 +1,105 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that forcing kids to do homework instills passivity, so homework should be abolished. However, this argument assumes that homework is always forced on students and that students have no say in whether to do the work. In fact, students always have the choice to do the homework or face the consequences of failing to do their work. This teaches students an important lesson that applies to the real world: that choices have consequences. Homework is actually an ideal tool to teach this lesson, since students make the choice without the domineering presence of their teacher. Furthermore, homework assignments are not necessarily \"forced\" on students. Wise teachers know that homework is more appealing when it includes freedom and options, such as a choice between writing a book report or designing a book cover. In this way, homework is not passive work forced on the student, but work that requires the student to take charge and make choices.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "suppresses",
+              "Y"
+            ],
+            [
+              "Y",
+              "is bad"
+            ]
+          ],
+          [
+            "given rationale/condition",
+            "A"
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "make them passive in character, rather than active",
+      "A": "Wise teachers know that homework is more appealing when it includes freedom and options, such as a choice between writing a book report or designing a book cover."
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      129,
+      137
+    ],
+    "Y": [
+      143,
+      193
+    ],
+    "A": [
+      662,
+      824
+    ]
+  }
+}

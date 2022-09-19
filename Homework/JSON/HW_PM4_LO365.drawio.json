@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that homework should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to talk about homework in every school in Japan. We have two points in our argument. The first point is \"harmful efforts\" and the second point is \"decreasing teacher's burden\". Let me explain our first argument. Our claim is that homework has harmful efforts on educational development of school students. Some students have memorized the incorrect way to study with homework. I'll give you some examples. In high school, students have lots of things to do, like hobbies, club activities, part-time jobs and so on. So how do students who have little time to do homework deal with it Some of them do homework during class, which is inefficient not only with regard to the homework but also to the class. In a worst-case scenario, they copy it from their classmates. Of course, it means that they would learn nothing. But they receive a passing score as long as they finish homework without understanding how to properly study. Who thinks homework works adequately in these situations We should abolish homework in order to let students understand the right and wrong ways to study. For all these reasons, we strongly support the motion. Thank you.",
+  "LO": "They said that homework should be abolished. However, one of the points made was that students would just copy the homework and get a passing grade with no knowledge of the subject or how to properly study it. Taking away homework is not going to change that. Students still find ways to cheat and get passing grades on other assignments as well as test and quizzes. These students just don't care about their education as a whole. They are always looking for shortcuts. They will in turn do the same thing with life. Most of the time if not always, these kids are found out. Whether it's the copying of the homework or when they take a quiz or a test and fail. That pattern over time will be easy to spot. In the end they will have to make a choice as to what matters. Don't make the choice for them by taking away homework.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "understanding how to properly study",
+      "A": "Students still find ways to cheat and get passing grades on other assignments as well as test and quizzes"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      52,
+      60
+    ],
+    "Y": [
+      1076,
+      1111
+    ],
+    "A": [
+      260,
+      365
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that homework should be abolished. We defined that homework for primary students should be abolished. We have two points: First, some students tend to dislike studying. Secondly, we have more effective learning ways than homework. Let me explain our first argument. Some students tend to dislike studying but are obliged to do homework and most of students are not enthusiastic about homework. Studying, in fact, is not something to be obliged but rather for satisfying intellectual curiosity. Imagine one-year old babies. They are always looking around, crawling from corner to corner, and touching, even biting, everything unfamiliar to them. In this way, they learn new things and expand their understanding of the world. That's how studying should be. It's not good for students to be obliged to study by their teachers or parents. Being obliged will lead to problems between family. That's one of the reasons some students tend to dislike studying. That is why homework should be abolished. Thank you.",
+  "LO": "They said that due to homework, relationship with family becomes worse. However, it's not mutually exclusive. Because even on their side, parents have to tell children to study because reasonablly on their side children are unlikely to study by themselves. Children will prioritize reading manga or playing game rather than reading textbook or solving some math problems because doing so is more attractive for them. But, as parents, they have to make children study because they know the importance of learning. That's why anyway parental intervantion will happen.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "doesn't suppress",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "no X",
+            "doesn't suppress",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "no X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "problems between family",
+      "A": "as parents, they have to make children study because they know the importance of learning"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      52,
+      60
+    ],
+    "Y": [
+      910,
+      933
+    ],
+    "A": [
+      422,
+      511
+    ]
+  }
+}

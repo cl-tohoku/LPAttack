@@ -1,0 +1,103 @@
+{
+  "PM": "Hello, everyone. Today's topic is \"Death penalty should be abolished\". We define that the death penalty should be abolished and instead of the death penalty, we propose that the suspected are sentence to life in. We have two points. The first point is \"Executioner's suffering\". The second point is \"Cruelty of death penalty\". I will explain the first point. In present situations, a person who executes the death penalty for a criminal whose death penalty has been confirmed by a trial suffers a lot. Some methods of the death penalty include hanging and using gas chambers. Let me illustrate the case of hanging in Japan. A prisoner does not know when they will be executed until the day of execution. At the day of execution, they first enter the teacher's room and write a farewell letter. Then, they go to the antechamber for execution and are separated from the execution room by a curtain. The convict on death row is blindfolded and handcuffed, and a curtain is closed to the execution room. Finally, they go to the execution room. A rope is hung around their neck and they stand on a tread plate marked in the center of the room. Then, multiple prison officers push the button to open and close the tread, and the convict on death row falls. Those executioners feel strong stress. They don't know which button is actually connected to the input of the tread. They feel that they are responsible themselves for killing the suspect on death row by their own hands. Executers' stress is extremely overwhelming. That's why the death penalty should be abolished. Thank you.",
+  "LO": "They said that because executioners may suffer from carrying out the death penalty, it should be abolished. However, there are a number of valid arguments against the death penalty, but executioner suffering doesn't even make the list. It is crime victims who suffer, and victims who deserve closure, which capital punishment provides in a way that nothing else can. With all of the technological improvements in the mechanics of executions, including lethal injection, there is even less cause for executioners feeling bad because the criminal doesn't even have to suffer. You could argue that such a death is an easier option than serving a life term behind bars. It is certainly less painful than what the crime victims and their families endure. So, executioners today haven't got a lot of reason to suffer, making the argument weak.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "is more important/severe/has greater weight than",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "acknowledges",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ],
+      "but nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "Executioner's suffering",
+      "A": "It is crime victims who suffer, and victims who deserve closure, which capital punishment provides in a way that nothing else can"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      35,
+      48
+    ],
+    "Y": [
+      253,
+      276
+    ],
+    "A": [
+      236,
+      365
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". I am going to make two arguments: First, forcing students to do homework will make them passive in character, rather than active. Secondly, abolishing assignments can reduce teachers' workloads. Let me start with the first argument. Some people may think that students should be given homework so that they can learn what to do. However, this is harmful to students because a school is not a place where students only learn to study. It is also where they learn how to live and manage their own lives. Once they graduate from school and start a career, they no longer have a \"teacher\" who will always take care of them and manage what they need to do. Students will have to think about what they need to do by themselves. If students are always given homework, they will always be waiting for instructions and guidelines from teachers and cannot think about what they need to do by themselves. In order to avoid this, homework should be abolished so that students can study on their own initiative. Therefore, for these reasons, homework should be abolished. Thank you.",
+  "LO": "They said that homework makes it hard for students to think about what they need to do by themselves. However, in the classroom, the teacher is always at hand to supervise and offer assistance to students, which tends to encourage dependence. This is a potential problem for struggling students as well as students who lack motivation. When it is too easy for students to have the teacher guide them to the solution, learning is inhibited. Moreover, in the classroom, teachers serve the role of drill sergeants, compelling students to work with tactics such as detention and a visit to the principal's office for failure to obey. Homework assignments, however, remove these external influences, so students are required to think for themselves and make smart, responsible choices.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "suppresses",
+            "A"
+          ],
+          [
+            "A",
+            "is bad"
+          ]
+        ],
+        [
+          [
+            "A",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "suppresses",
+              "A"
+            ],
+            [
+              "A",
+              "is bad"
+            ]
+          ],
+          [
+            [
+              "A",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "X",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "Students will have to think about what they need to do by themselves",
+      "A": "offer assistance to students, which tends to encourage dependence"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      740,
+      808
+    ],
+    "A": [
+      176,
+      241
+    ]
+  }
+}

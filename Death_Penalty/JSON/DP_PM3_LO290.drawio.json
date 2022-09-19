@@ -1,0 +1,98 @@
+{
+  "PM": "Hello, everyone. Today's topic is \"Death penalty should be abolished\". We define that the death penalty should be abolished and instead of the death penalty, we propose that the suspected are sentence to life in. We have two points. The first point is \"Executioner's suffering\". The second point is \"Cruelty of death penalty\". I will explain the first point. In present situations, a person who executes the death penalty for a criminal whose death penalty has been confirmed by a trial suffers a lot. Some methods of the death penalty include hanging and using gas chambers. Let me illustrate the case of hanging in Japan. A prisoner does not know when they will be executed until the day of execution. At the day of execution, they first enter the teacher's room and write a farewell letter. Then, they go to the antechamber for execution and are separated from the execution room by a curtain. The convict on death row is blindfolded and handcuffed, and a curtain is closed to the execution room. Finally, they go to the execution room. A rope is hung around their neck and they stand on a tread plate marked in the center of the room. Then, multiple prison officers push the button to open and close the tread, and the convict on death row falls. Those executioners feel strong stress. They don't know which button is actually connected to the input of the tread. They feel that they are responsible themselves for killing the suspect on death row by their own hands. Executers' stress is extremely overwhelming. That's why the death penalty should be abolished. Thank you.",
+  "LO": "They said that carrying out the death penalty causes the executioner to suffer, so it should be abolished. However, if it were true that executioners suffer terribly because of their part in capital punishment, wouldn't we hear about a dire shortage of these workers? Being an executioner is part of a prison job, which is a voluntary position, meaning the person had to seek out the job. No one is being forced against their will to carry out a legal execution. So, the assumption of suffering and stress on the part of the executioner is unproven and probably exaggerated. For all we know, executioners feel relief and pride instead of stress when they perform a job intended to keep society safe and bring justice to victims. Thus, this argument is too weak to stand.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is bad"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is bad"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Death penalty",
+      "Y": "Executioner's suffering",
+      "A": "No one is being forced against their will to carry out a legal execution."
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      35,
+      48
+    ],
+    "Y": [
+      253,
+      276
+    ],
+    "A": [
+      389,
+      462
+    ]
+  }
+}

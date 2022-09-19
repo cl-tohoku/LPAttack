@@ -1,0 +1,104 @@
+{
+  "PM": "Hello everyone. Today's topic is \"Homework should be abolished\". We have two points: The first point is \"free time\" and the second point is \"decrease burden on teachers\". I will explain the first point of \"free time\". We believe that if homework were to be abolished, we could have more free time. As a result, we could do more of what we really wanted like club activities, hobbies, or playing with friends.In my case, I go to tennis club after class until 5:00 pm and then I go to cram school until 8:00 pm. After this full day, I arrive at my home around 8:40 pm to eat dinner and take a shower. At nearly 10:00 pm I start my homework. I have a lot of homework. As a result, I go to bed late at night at nearly 1:00 am in the morning and I don't have the opportunity to sleep for a long period of time. It is not healthy. Therefore, homework should be abolished. Thank you.",
+  "LO": "They said that by abolishing homework, we can enjoy more free time. However, it's not true. Even if using time efficiently is difficult, but we can reduce time taken to do homework in the long run. That's because the reason why we take time to do homework is we don't understand what we learned well. Because if we understand the new formula or the way of calculation well , we don't have to use time to check the formula or be stuck on the problems. Given that, the more we do homework, the shorter the time taken to do homework become because we'll get used to the way of solve problems. That's why even if we have homework, still we will be able to enjoy free time.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            [
+              "X",
+              "suppresses",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "suppresses",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          "can be mitigated"
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "limit",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "Homework",
+      "Y": "free time",
+      "A": "the more we do homework, the shorter the time taken to do homework become because we'll get used to the way of solve problems"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      34,
+      42
+    ],
+    "Y": [
+      206,
+      215
+    ],
+    "A": [
+      463,
+      588
+    ]
+  }
+}

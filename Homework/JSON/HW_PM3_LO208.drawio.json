@@ -1,0 +1,105 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that homework should be abolished. We defined that homework for primary students should be abolished. We have two points: First, some students tend to dislike studying. Secondly, we have more effective learning ways than homework. Let me explain our first argument. Some students tend to dislike studying but are obliged to do homework and most of students are not enthusiastic about homework. Studying, in fact, is not something to be obliged but rather for satisfying intellectual curiosity. Imagine one-year old babies. They are always looking around, crawling from corner to corner, and touching, even biting, everything unfamiliar to them. In this way, they learn new things and expand their understanding of the world. That's how studying should be. It's not good for students to be obliged to study by their teachers or parents. Being obliged will lead to problems between family. That's one of the reasons some students tend to dislike studying. That is why homework should be abolished. Thank you.",
+  "LO": "They said that purpose of studying is to satisfy intellectual curiosty. However, given that, we can say homework is necessary. Because homework will make first step to satisfy intellectual curiosity because this basic understanding capacitate children to find furter questions . Homework helps students to establish the basic knowledge and skill such as what teacher said in the class, the usage of some law. Rather under their side, due to the lack of foundation, students can't understand the classes well, let alone satisfy themselves.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "X",
+          "suppresses",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "X",
+            "promotes",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            [
+              "X",
+              "promotes",
+              "Y"
+            ],
+            [
+              "Y",
+              "is good"
+            ]
+          ],
+          [
+            "given rationale/condition",
+            "A"
+          ]
+        ],
+        "contradicts",
+        [
+          [
+            "X",
+            "suppresses",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ]
+      ],
+      "nullify",
+      [
+        "X",
+        "is negative"
+      ]
+    ],
+    "Text spans": {
+      "X": "homework",
+      "Y": "satisfying intellectual curiosity",
+      "A": "this basic understanding capacitate children to find furter questions"
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      52,
+      60
+    ],
+    "Y": [
+      506,
+      539
+    ],
+    "A": [
+      207,
+      276
+    ]
+  }
+}

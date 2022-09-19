@@ -1,0 +1,98 @@
+{
+  "PM": "Hello everyone. Today, we are given the motion that the death penalty should be abolished. We strongly support this motion. Before explaining our arguments, let me define the motion. We are going to abolish the death penalty all over the world and introduce a life-imprisonment system. It means that criminals stay in jail forever. We have two points. First point is \"Rehabilitation\". The second point is \"World's trend\". So, let me explain our first argument. Our claim is that the death penalty deprives the chance of rehabilitation of the criminals. Our reasoning is as follows. In the case of a serious crime such as murder, especially random killing of many people, a heavy punishment should be sentenced. The death penalty might be an option, but it just ends the life of a criminal and solves nothing. The criminal has no chance to reflect on what they have done. They need to reflect on their wrong-doing every day. They should spend their lives reflecting on it. Life imprisonment system is, in a sense, a very severe punishment. Criminals are restricted of their freedom all day. They need to continue to apologize for the rest of their life while thinking about their victims. Moreover, there is a perspective that the society creates the criminals. For example, imagine a case that a student who was always been bullied and notified others such as teachers and the community, but they did nothing to help. The student was ignored by everyone. In that case, it is understandable that the student attacks others due to their anger at a society where no one helps. Like this, a society also has a responsibility for a criminal, and for this reason, it is a government task to set the opportunity of rehabilitation in the life imprisonment system. The death penalty is an irresponsible act by the nation. For all these reasons, we beg to propose. Thank you.",
+  "LO": "They said that we should sentence prisoners to life instead of death so they can be rehabilitated. However, the reality is that a life spent in prison creates individuals who are unable to function when returned to society. These prisoners have become institutionalized, meaning they have become dependent on the rigid structure of the prison system. By being imprisoned for years on end, often in isolation and deprived of meaningful stimuli, these inmates gradually lose their life skills and ability to interact with other members of society. Becoming institutionalized is antithetical to becoming rehabilitated. Unless prisoners have a chance of being released back into society, rehabilitation is a meaningless and empty goal. The death penalty, on the other hand, makes no claims to accomplish rehabilitation. Its goal is more straightforward: to deter future crime and exact the ultimate punishment fitting the most egregious offenses.",
+  "Pattern": {
+    "PM": [
+      [
+        "X",
+        "is negative"
+      ],
+      "support",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "LO": [
+      [
+        "X",
+        "is not negative"
+      ],
+      "support",
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ]
+    ],
+    "Attack": [
+      [
+        [
+          [
+            "no X",
+            "doesn't promote",
+            "Y"
+          ],
+          [
+            "Y",
+            "is good"
+          ]
+        ],
+        [
+          "given rationale/condition",
+          "A"
+        ]
+      ],
+      "nullify",
+      [
+        [
+          "no X",
+          "promotes",
+          "Y"
+        ],
+        [
+          "Y",
+          "is good"
+        ]
+      ]
+    ],
+    "Text spans": {
+      "X": "death penalty",
+      "Y": "rehabilitation of the criminals",
+      "A": "By being imprisoned for years on end, often in isolation and deprived of meaningful stimuli, these inmates gradually lose their life skills and ability to interact with other members of society."
+    }
+  },
+  "Character offset of text spans": {
+    "X": [
+      483,
+      496
+    ],
+    "Y": [
+      520,
+      551
+    ],
+    "A": [
+      351,
+      545
+    ]
+  }
+}
